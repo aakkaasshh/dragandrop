@@ -1,0 +1,45 @@
+<!Doctype html>
+<html>
+<head>
+<title>pictu dag and dop</title>
+<style type="text/css">
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+*
+.dragzone,.dropzone
+{
+    height:400px;
+     width:40%;
+    border:2px solid black;
+    float:left;
+    margin-top:150px;
+    margin-left:7%;
+
+}
+</style>
+</head>
+<body>
+    <div class="dragzone">
+        <img src="ap.jpg" id="dragElement" height="300px" ondragstart="dragStart(event)">
+    </div>
+
+        
+        
+       
+        <div class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)">
+         </div>
+        
+
+        <script type="text/javascript" src="index.js">
+        </script>
+        
+    
+    
+    
+   
+    </body>
+    </html>
